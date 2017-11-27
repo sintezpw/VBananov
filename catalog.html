@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+
+		<link rel="stylesheet" href="styles/main.css">
+	</head>
+	<body>
+		<header class="promo-header">
+			<div class="promo-header__logo">
+				<a href="#"><img src="" alt=""></a>
+			</div>
+				<ul class="promo-header_filter">
+					<li class="promo-header_filter--studio"><a href="index.html">Студия</a></li>
+					<li class="promo-header_filter--customers">Клиенты</li>
+					<li class="promo-header_filter--shops">Магазины</li>
+					<li class="promo-header_filter--contacts">Контакты</li>
+				</ul>
+			<div class="promo-header--basket">
+				<span class="promo-header--basket"><p>Корзина</p></span>
+			</div>
+		</header>
+		<main>
+		<section class="promo-ready">
+			<h1 class="promo-ready__title">Магазин готовых шаблонов</h1>
+		</section>
+		<div class="catalog-wrap">
+			<section class="options">
+				<div class="options__sort">
+					<h3 class="options__sort--title">Стоимость</h3>
+					<div class="options__sort">
+						<div class="options__sort__minSlide"></div>
+						<div class="options__sort__trackProgress"></div>
+						<div class="options__sort__maxSlide"></div>
+						<div class="options__sort__track"></div>
+						<div class="options__sort__range">
+							<span class="options__sort__range--text">от</span>
+							<input type="text" value="0" class="options__sort__range--from">
+							<span class="options__sort__range--text">до</span>
+							<input type="text" value="15 000" class="options__sort__range--to">
+						</div>
+					</div>
+				</div>
+				<div class="grid">
+					<h3 class="grid--title">Сетка</h3>
+					<ul class="grid--filter">
+						<li class="grid--filter--adapt"><input type="radio" value="adaptive" id="radio1"><label for="radio1">Адаптивная</label></li>
+						<li class="grid--filter--fix"><input type="radio" value="fixed" id="radio2"><label for="radio2">Фиксированная</label></li>
+						<li class="grid--filter--rubber"><input type="radio" value="rubber" id="radio3"><label for="radio3">Резиновая</label></li>
+					</ul>
+				</div>
+				<div class="features">
+					<h3 class="features--title"></h3>
+					<ul class="features--filter">
+						<li class="features--filter--item"><input type="checkbox" value="slider" name="check" id="check1" checked><label for="check1">Слайдер</label></li>
+						<li class="features--filter--item"><input type="checkbox" value="advantages" name="check" id="check2"><label for="check2">Блок преимуществ</label></li>
+						<li class="features--filter--item"><input type="checkbox" value="news" name="check" id="check3" checked><label for="check3">Новости</label></li>
+						<li class="features--filter--item"><input type="checkbox" value="gallery" name="check" id="check4"><label for="check4">Галерея</label></li>
+						<li class="features--filter--item"><input type="checkbox" value="basket" name="check" id="check5"><label for="check5">Корзина</label></li>
+					</ul>
+				</div>
+				<button class="options--btn">Показать</button>
+			</section>
+			<section class="catalog">
+				<div class="catalog__sort">
+					<h3 class="catalog__sort--title">Сортировать</h3>
+					<ul class="catalog__sort--sort">
+						<li class="catalog__sort--sort--item"><a href="#">По цене</a></li>
+						<li class="catalog__sort--sort--item"><a href="#">По типу</a></li>
+						<li class="catalog__sort--sort--item"><a href="#">По названию</a></li>
+						<li class="catalog__sort--sort--item"><a href="#"><span class="catalog__sort--sort--item--down"></span></a></li>
+						<li class="catalog__sort--sort--item"><a href="#"><span class="catalog__sort--sort--item--up"></span></a></li>
+					</ul>
+				</div>
+				<section class="catalog--wrap">
+					<div class="catalog--wrap__item">
+						<div class="catalog--wrap__item__header">
+							<span class="catalog--wrap__item__header--circle"></span>
+							<span class="catalog--wrap__item__header--circle"></span>
+							<span class="catalog--wrap__item__header--circle"></span>
+						</div>
+						<div class="catalog--wrap__item__desc">
+							<h3 class="catalog--wrap__item__desc--title">Sedona</h3>
+							<p class="catalog--wrap__item__desc--text">Информационный сайт<br> для туристов</p>
+							<button class="catalog--wrap__item__desc--btn">9900 руб.</button>
+						</div>
+						<div class="catalog--wrap__item">
+							<div class="catalog--wrap__item__header">
+								<span class="catalog--wrap__item__header--circle"></span>
+								<span class="catalog--wrap__item__header--circle"></span>
+								<span class="catalog--wrap__item__header--circle"></span>
+							</div>
+							<div class="catalog--wrap__item__desc">
+								<h3 class="catalog--wrap__item__desc--title">Pink app</h3>
+								<p class="catalog--wrap__item__desc--text">Продуктовый лендинг<br>приложения для iOS и Android</p>
+								<button class="catalog--wrap__item__desc--btn">9900 руб.</button>
+							</div>
+						</div>
+						<div class="catalog--wrap__item">
+							<div class="catalog--wrap__item__header">
+								<span class="catalog--wrap__item__header--circle"></span>
+								<span class="catalog--wrap__item__header--circle"></span>
+								<span class="catalog--wrap__item__header--circle"></span>
+							</div>
+							<div class="catalog--wrap__item__desc">
+								<h3 class="catalog--wrap__item__desc--title">Barbershop</h3>
+								<p class="catalog--wrap__item__desc--text">Сайт салоны красоты<br>Для мужчин, да.</p>
+								<button class="catalog--wrap__item__desc--btn">9900 руб.</button>
+							</div>
+						</div>
+						<div class="catalog--wrap__item">
+							<div class="catalog--wrap__item__header">
+								<span class="catalog--wrap__item__header--circle"></span>
+								<span class="catalog--wrap__item__header--circle"></span>
+								<span class="catalog--wrap__item__header--circle"></span>
+							</div>
+							<div class="catalog--wrap__item__desc">
+								<h3 class="catalog--wrap__item__desc--title">Mishka</h3>
+								<p class="catalog--wrap__item__desc--text">Интернет-магазин<br>вязаных игрушек</p>
+								<button class="catalog--wrap__item__desc--btn">9900 руб.</button>
+							</div>
+						</div>
+						<div class="catalog--wrap__item">
+							<div class="catalog--wrap__item__header">
+								<span class="catalog--wrap__item__header--circle"></span>
+								<span class="catalog--wrap__item__header--circle"></span>
+								<span class="catalog--wrap__item__header--circle"></span>
+							</div>
+							<div class="catalog--wrap__item__desc">
+								<h3 class="catalog--wrap__item__desc--title">A plus</h3>
+								<p class="catalog--wrap__item__desc--text">Лендинг курсов повышения<br>квалификации</p>
+								<button class="catalog--wrap__item__desc--btn">9900 руб.</button>
+							</div>
+						</div>
+						<div class="catalog--wrap__item">
+							<div class="catalog--wrap__item__header">
+								<span class="catalog--wrap__item__header--circle"></span>
+								<span class="catalog--wrap__item__header--circle"></span>
+								<span class="catalog--wrap__item__header--circle"></span>
+							</div>
+							<div class="catalog--wrap__item__desc">
+								<h3 class="catalog--wrap__item__desc--title">Кваст</h3>
+								<p class="catalog--wrap__item__desc--text">Промо-сайт производителя<br>крафтового кваса</p>
+								<button class="catalog--wrap__item__desc--btn">9900 руб.</button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="pages">
+					<button class="pages--btn">1</button>
+					<button class="pages--btn">2</button>
+					<button class="pages--btn--next">Следующая</button>
+				</section>
+			</section>
+		</div>
+		<section class="address">
+			<div class="address__map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6146657631232!2d30.320266216097036!3d59.938535981876115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca77c663%3A0xe2913435672b14c9!2s21Shop!5e0!3m2!1sru!2sru!4v1497471357684"frameborder="0" style="border:0" allowfullscreen></iframe></div>
+			<div class="address__write-us">
+				<h3 class="address__write-us--title">NЁRDS DESIGN STUDIO</h3>
+				<p class="address__write-us--desc">191186, Санкт-Петербург,
+						ул. Б. Конюшенная, д. 19/8</p>
+				<p class="address__write-us--phone">тел. +7 (812) 275-75-75</p>
+				<button class="address__write-us--btn">Напишите нам</button>
+			</div>
+		</section>
+		</main>
+		<footer class="friend">
+			<div class="friend--icon">
+				<img class="friend--icon--pict--VK" src="" alt="">
+			</div>
+			<div class="friend--icon">
+				<img class="friend__icon--pict--FB" src="" alt="">
+			</div>
+			<div class="friend--icon">
+				<img class="friend--icon--pict--Inst" src="" alt="">
+			</div>
+		<section class="friend--text">
+			<h1 class="friend--text--title">Давайте дружить, это выгодно!</h1>
+			<p class="friend--text--desc">Скидка 10% для друзей из социальных сетей.</p>
+		</section>	
+		</footer>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
