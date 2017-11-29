@@ -11,58 +11,59 @@
 	<body>
 		<header class="promo-header">
 			<div class="promo-header__logo">
-				<a href="#"><img src="" alt=""></a>
+				<a href="#"><img class="promo-header__pic" src="" alt=""></a>
 			</div>
-				<ul class="promo-header_filter">
-					<li class="promo-header_filter--studio"><a href="index.html">Студия</a></li>
-					<li class="promo-header_filter--customers">Клиенты</li>
-					<li class="promo-header_filter--shops">Магазины</li>
-					<li class="promo-header_filter--contacts">Контакты</li>
-				</ul>
-			<div class="promo-header--basket">
-				<span class="promo-header--basket"><p>Корзина</p></span>
+			<ul class="promo-header__filter">
+				<li class="promo-header__item"><a class="promo-header__link" href="index.html">Студия</a></li>
+				<li class="promo-header__item">Клиенты</li>
+				<li class="promo-header__item promo-header__item--redline">Магазины</li>
+				<li class="promo-header__item">Контакты</li>
+			</ul>
+			<div class="promo-header__basket">
+				<span class="promo-header__icon"></span>
+				<p class="promo-header__item">Корзина</p>
 			</div>
 		</header>
 		<main>
-		<section class="promo-ready">
-			<h1 class="promo-ready__title">Магазин готовых шаблонов</h1>
+		<section class="ready-block">
+			<h1 class="ready-block__title">Магазин готовых шаблонов</h1>
 		</section>
 		<div class="catalog-wrap">
 			<section class="options">
-				<div class="options__sort">
-					<h3 class="options__sort--title">Стоимость</h3>
-					<div class="options__sort">
-						<div class="options__sort__minSlide"></div>
-						<div class="options__sort__trackProgress"></div>
-						<div class="options__sort__maxSlide"></div>
-						<div class="options__sort__track"></div>
-						<div class="options__sort__range">
-							<span class="options__sort__range--text">от</span>
-							<input type="text" value="0" class="options__sort__range--from">
-							<span class="options__sort__range--text">до</span>
-							<input type="text" value="15 000" class="options__sort__range--to">
+				<div class="options-block">
+					<h3 class="options-block__title">Стоимость</h3>
+					<div class="options-sort">
+						<div class="options-sort__minSlide"></div>
+						<div class="options-sort__trackProgress"></div>
+						<div class="options-sort__maxSlide"></div>
+						<div class="options-sort__track"></div>
+						<div class="options-range">
+							<span class="options-range__text">от</span>
+							<input type="text" value="0" class="options-range options-range--from">
+							<span class="options-range__text">до</span>
+							<input type="text" value="15 000" class="options-range options-range--to">
 						</div>
 					</div>
 				</div>
 				<div class="grid">
-					<h3 class="grid--title">Сетка</h3>
-					<ul class="grid--filter">
-						<li class="grid--filter--adapt"><input type="radio" value="adaptive" id="radio1"><label for="radio1">Адаптивная</label></li>
-						<li class="grid--filter--fix"><input type="radio" value="fixed" id="radio2"><label for="radio2">Фиксированная</label></li>
-						<li class="grid--filter--rubber"><input type="radio" value="rubber" id="radio3"><label for="radio3">Резиновая</label></li>
+					<h3 class="grid__title">Сетка</h3>
+					<ul class="grid__filter">
+						<li class="grid__adapt grid__adapt--check"><input type="radio" value="adaptive" id="radio1"><label for="radio1">Адаптивная</label></li>
+						<li class="grid__fix"><input type="radio" value="fixed" id="radio2"><label for="radio2">Фиксированная</label></li>
+						<li class="grid__rubber"><input type="radio" value="rubber" id="radio3"><label for="radio3">Резиновая</label></li>
 					</ul>
 				</div>
 				<div class="features">
-					<h3 class="features--title"></h3>
-					<ul class="features--filter">
-						<li class="features--filter--item"><input type="checkbox" value="slider" name="check" id="check1" checked><label for="check1">Слайдер</label></li>
-						<li class="features--filter--item"><input type="checkbox" value="advantages" name="check" id="check2"><label for="check2">Блок преимуществ</label></li>
-						<li class="features--filter--item"><input type="checkbox" value="news" name="check" id="check3" checked><label for="check3">Новости</label></li>
-						<li class="features--filter--item"><input type="checkbox" value="gallery" name="check" id="check4"><label for="check4">Галерея</label></li>
-						<li class="features--filter--item"><input type="checkbox" value="basket" name="check" id="check5"><label for="check5">Корзина</label></li>
+					<h3 class="features__title"></h3>
+					<ul class="features__filter">
+						<li class="features__item features__item--check"><input type="checkbox" value="slider" name="check" id="check1" checked><label for="check1">Слайдер</label></li>
+						<li class="features__item"><input type="checkbox" value="advantages" name="check" id="check2"><label for="check2">Блок преимуществ</label></li>
+						<li class="features__item features__item--check"><input type="checkbox" value="news" name="check" id="check3" checked><label for="check3">Новости</label></li>
+						<li class="features__item"><input type="checkbox" value="gallery" name="check" id="check4"><label for="check4">Галерея</label></li>
+						<li class="features__item"><input type="checkbox" value="basket" name="check" id="check5"><label for="check5">Корзина</label></li>
 					</ul>
 				</div>
-				<button class="options--btn">Показать</button>
+				<button class="options__btn">Показать</button>
 			</section>
 			<section class="catalog">
 				<div class="catalog__sort">
