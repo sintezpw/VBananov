@@ -1,0 +1,15 @@
+.product {
+    &__block {
+
+    }
+    &__product-block__btn--red {
+        @include btn($red);
+
+    }
+    &__product-block__btn--green {
+        @include btn($green);
+    }
+    &__product-block__btn--yellow {
+        @include btn($yellow);
+    }
+}

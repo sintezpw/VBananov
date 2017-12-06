@@ -1,0 +1,15 @@
+.promo-header {
+
+    &__filter {
+
+    }
+    &__item {
+        @include navItem;
+        &:hover {
+            color: $fontHover;
+        }
+    }
+    &__link {
+        @include link($fontColor);
+    }
+}
